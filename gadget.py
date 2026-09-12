@@ -2,7 +2,6 @@ import streamlit as st
 from google import genai
 from google.genai import errors
 from dotenv import load_dotenv
-from openai import OpenAI
 import os
 
 load_dotenv()
