@@ -1,5 +1,5 @@
 import streamlit as st
-import google.genai as genai
+from google import genai
 from google.genai import errors
 from dotenv import load_dotenv
 from openai import OpenAI
